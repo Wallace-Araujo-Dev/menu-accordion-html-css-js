@@ -28,6 +28,27 @@ main {
     margin-left: -90px;
 }
 
+@media (max-width:900px) {
+    .acordeon {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .acordeon .ilustracao {
+        margin: -90px 0 30px 0;
+    }
+}
+
+@media (max-width:700px) {
+    .acordeon {
+        flex-direction: column;
+        padding: 0 50px;
+        width: 90%;
+    }
+    .acordeon .ilustracao {
+        margin: -90px 0 30px 0;
+    }
+}
+
 .acordeon .conteudo {
     margin: 0 40px;
     width: 100%;
